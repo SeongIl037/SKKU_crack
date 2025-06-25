@@ -16,12 +16,11 @@ public class ChatGPTTest : MonoBehaviour
     public TMP_InputField InputField;
     public Button SendButton;
     private List<Message> _messages = new List<Message>();
-    private const string OPEN_API_KEY =
-        "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";
+    private const string OPEN_API_KEY = "1";
     public AudioSource _audioSource;
 
     private const string TYPECASTE_KEY =
-        "__pltB4BvLfwRfrbB3YmHpXU9DgPW2Uwai3WZPrfm5kMr";
+        "1";
 
     private OpenAIClient _api;
     public RawImage _image;
